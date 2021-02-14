@@ -1,0 +1,38 @@
+        1.      UI:Using your preferred browser automation tool 
+        (eg: Selenium, Cypress, etc) write tests that cover the following cases. 
+         Use POM (Page Object Model).  
+         Be sure to include proper assertions to validate each scenario.      
+         • Navigate to www.tempus.com.  Verify the browser url once the page loads.     
+         • Using the options hamburger on the Tempus homepage (www.tempus.com),
+          navigate to the "About Us" page.  Verify the url.       
+          • Navigate from the Tempus homepage (www.tempus.com) to the "Contact Us" page via the link in the page footer.  
+          Verify the Tempus address listed on that page is "600 W Chicago Ave. Ste 510, Chicago, IL 60654"
+       
+       
+       
+       
+       
+        2.      Backend:Write REST API tests that cover the following cases.  Be sure to include proper assertions to validate each scenario. 
+        
+        Use the following URI: http://reqres.in/
+       
+       
+        Send a GET request to /api/users and verify the following:
+                • a 200 HTTP status response was returned
+                • the JSON response contains the following attributes:
+                        • "page"
+                        • "per_page"
+                        • "total"
+                        • "total_pages"
+                        • "data"
+                • the "data[0]" attribute contains the values:
+                        {
+                                "id": 1,
+                                "email": "george.bluth@reqres.in",
+                                "first_name": "George",
+                                "last_name": "Bluth",
+                                "avatar": "https://reqres.in/img/faces/1-image.jpg"
+                        }
+
+
+Submit a compressed file containing all code, notes, requirements/dependencies, and execution instructions.
